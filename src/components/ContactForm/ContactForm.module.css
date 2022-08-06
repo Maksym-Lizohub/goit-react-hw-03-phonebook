@@ -1,23 +1,28 @@
 .form {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
   padding: 20px;
   width: fit-content;
 }
+
 .label {
   display: block;
 }
+
 .input {
   display: block;
   margin-bottom: 20px;
+  border-radius: 3px;
 }
 
 .button {
   cursor: pointer;
   background: none;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .button:hover {
-  background-color: blue;
+  background-color: rgb(81, 81, 255);
   color: white;
 }
