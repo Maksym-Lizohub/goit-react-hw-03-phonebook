@@ -1,0 +1,16 @@
+li {
+  margin-bottom: 20px;
+}
+span {
+  display: inline-block;
+  margin-right: 10px;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+}
