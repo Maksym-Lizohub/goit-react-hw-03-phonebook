@@ -3,8 +3,9 @@ import React from 'react';
 import { nanoid } from 'nanoid';
 import s from './ContactFilter.module.css';
 
-const ContactFilter = ({ onChange }) => {
+const ContactFilter = ({ onChange, filter }) => {
   const filterId = nanoid();
+
   return (
     <>
       <label htmlFor={filterId} className={s.label}>
@@ -16,6 +17,7 @@ const ContactFilter = ({ onChange }) => {
         id={filterId}
         onChange={onChange}
         name="filter"
+        value={filter}
       />
     </>
   );
