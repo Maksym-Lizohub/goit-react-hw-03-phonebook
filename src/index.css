@@ -50,3 +50,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+h1,
+h2 {
+  color: #059862;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px #04aa6d;
+}

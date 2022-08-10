@@ -1,23 +1,40 @@
 .form {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .label {
   display: block;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px #04aa6d;
 }
 .input {
-  display: block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin-bottom: 20px;
 }
 
 .button {
   cursor: pointer;
-  background: none;
+  background-color: #04aa6d;
+  color: #ffffff;
+  border: none;
   border-radius: 5px;
+  font-size: 17px;
+  padding: 6px 18px;
 }
 
 .button:hover {
-  background-color: blue;
-  color: white;
+  background-color: #059862;
 }

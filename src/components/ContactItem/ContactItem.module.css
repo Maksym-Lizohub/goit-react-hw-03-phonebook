@@ -1,16 +1,29 @@
 .item {
+  display: flex;
+
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   margin-bottom: 20px;
 }
 .span {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin-right: 10px;
+  text-shadow: 1px 1px 2px #04aa6d;
 }
 .button {
   cursor: pointer;
-  background: none;
+  background-color: #04aa6d;
+  color: #ffffff;
+  border: none;
   border-radius: 5px;
+
+  padding: 6px 18px;
 }
 .button:hover {
-  background-color: blue;
-  color: white;
+  background-color: #059862;
 }
